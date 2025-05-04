@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MobileCw2"
+rootProject.name = "MovieMate"
 include(":app")
  

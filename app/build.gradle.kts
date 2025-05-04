@@ -6,12 +6,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mobilecw2"
+    namespace = "com.example.moviemate"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mobilecw2"
-        minSdk = 32
+        applicationId = "com.example.moviemate"
+        minSdk = 21
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -68,4 +68,5 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
     implementation ("androidx.room:room-ktx:$room_version")
     implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation ("com.airbnb.android:lottie-compose:6.1.0")
 }
